@@ -1,6 +1,5 @@
 ﻿# Mahasena-CC
 
-Sure! Let’s walk through how the C++ code works step-by-step:
 
 ---
 
@@ -102,4 +101,6 @@ Output:
 READY FOR BATTLE
 ```
 
-Let me know if you'd like [step-by-step dry run](f) or [visual explanation of even/odd check](f).
+This C++ program reads the number of soldiers and how many weapons each one holds. It then counts how many soldiers have an even number of weapons (considered "lucky") and how many have an odd number (considered "unlucky"). Using a simple loop, it checks each number to see if it's divisible by 2, increasing the appropriate counter.
+
+At the end, it compares the count of lucky vs. unlucky soldiers. If the number of lucky soldiers is greater, it prints "READY FOR BATTLE"; otherwise, it prints "NOT READY". This logic follows Kattapa’s belief that a stronger army has more soldiers with even weapon counts
